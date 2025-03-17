@@ -3,7 +3,8 @@
 ## 0. setting
 
 - `.gitignore`
-- 가상환경 설정
+- 가상환경 설정// python -m venv 프로젝트이름
+- 가상환경 활성화 // source 프로젝트이름/Scripts/activate
 - `README.md`
 
 
@@ -17,7 +18,7 @@ pip install django
 
 2. 프로젝트 생성
 ```shell
- django-admin startproject <first_pjt> <path>
+ django-admin startproject 프로젝트이름 경로(ex .)
  ```
 
  3. 서버실행(종료 : `ctrl + c`)
